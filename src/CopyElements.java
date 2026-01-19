@@ -6,6 +6,7 @@ public class CopyElements {
         int[] copy = new int[arr.length];
         int j =0;
         for(int i:arr){
+
             copy[j++]=i;
         }
         System.out.println(Arrays.toString(copy));
