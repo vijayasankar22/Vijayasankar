@@ -2,7 +2,7 @@ public class ExceptionHandling {
     public static void main(String[] args) {
         String s= "Vijay";
         try { //try this things if anything error happens execute catch block
-           if(s.equals("Vijay")) throw new MyException("Name is not Allowed");
+            throw new MyException("Name is not Allowed");
         }
 
         catch(Exception k){ // catch block is executed only when there is error in try block
