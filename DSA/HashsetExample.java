@@ -11,7 +11,7 @@ public class HashsetExample {
         set.add(65);
         set.add(12);
         set.remove(65);
-        set.clear();
+
 
 
         System.out.println(set);
